@@ -25,7 +25,7 @@
                                     <action selector="selectedAddClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hTY-EC-PnE"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FEC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vad-ze-l2L">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Peter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vad-ze-l2L">
                                 <frame key="frameInset" minX="16" minY="211" height="54" maxX="16"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.79607843140000001" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>

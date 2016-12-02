@@ -25,7 +25,7 @@
     sender.selected = !sender.selected;
     
     if (sender.selected) {
-        FECAddressView *view =[[FECAddressView alloc] initWithFrame:self.view.bounds selecteViewTitle:@"FEC地址选择器" withAnimationType:AddressAnimationTypeAlert];
+        FECAddressView *view =[[FECAddressView alloc] initWithFrame:self.view.bounds selecteViewTitle:@"" withAnimationType:AddressAnimationTypeAlert];
         [view showCityView:^(NSString *proviceStr, NSString *cityStr, NSString *disStr) {
             
             _lb_address.text = [NSString stringWithFormat:@"%@%@%@",proviceStr,cityStr,disStr];
@@ -40,7 +40,7 @@
         
     }else {
         
-        FECAddressView *view =[[FECAddressView alloc] initWithFrame:self.view.bounds selecteViewTitle:@"" withAnimationType:AddressAnimationTypeAction];
+        FECAddressView *view =[[FECAddressView alloc] initWithFrame:self.view.bounds selecteViewTitle:@"Peter地址选择器" withAnimationType:AddressAnimationTypeAction];
         
         [view showCityViewWithAutoSlected:^(NSString *proviceStr, NSString *cityStr, NSString *disStr) {
             

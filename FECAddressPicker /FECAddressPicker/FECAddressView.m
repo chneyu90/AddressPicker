@@ -112,6 +112,8 @@
     _pickView.backgroundColor = [UIColor colorWithRed:237/255.0 green:237/255.0 blue:237/255.0 alpha:1.0];
     [_BJview addSubview:_pickView];
     [_BJview sendSubviewToBack:_pickView];
+    // 加这句可出现中间的两根选择状态横向，屏蔽可取消
+    [_pickView selectRow:0 inComponent:0 animated:YES];
     
     // alert 布局
     if (_type == AddressAnimationTypeAlert) {
