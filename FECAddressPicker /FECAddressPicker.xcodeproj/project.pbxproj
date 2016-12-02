@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0411C0071DF00DC100570DBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0411C0061DF00DC100570DBE /* main.m */; };
+		0411C00A1DF00DC100570DBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0411C0091DF00DC100570DBE /* AppDelegate.m */; };
+		0411C00D1DF00DC100570DBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0411C00C1DF00DC100570DBE /* ViewController.m */; };
+		0411C0101DF00DC100570DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0411C00E1DF00DC100570DBE /* Main.storyboard */; };
+		0411C0121DF00DC100570DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0411C0111DF00DC100570DBE /* Assets.xcassets */; };
+		0411C0151DF00DC100570DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0411C0131DF00DC100570DBE /* LaunchScreen.storyboard */; };
+		0411C0201DF00DC100570DBE /* FECAddressPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0411C01F1DF00DC100570DBE /* FECAddressPickerTests.m */; };
+		0411C02B1DF00DC100570DBE /* FECAddressPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0411C02A1DF00DC100570DBE /* FECAddressPickerUITests.m */; };
+		0411C03A1DF00EEE00570DBE /* FECAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0411C0391DF00EEE00570DBE /* FECAddressView.m */; };
+		0411C03C1DF00F0600570DBE /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0411C03B1DF00F0600570DBE /* Address.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0411C01C1DF00DC100570DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0411BFFA1DF00DC100570DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0411C0011DF00DC100570DBE;
+			remoteInfo = FECAddressPicker;
+		};
+		0411C0271DF00DC100570DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0411BFFA1DF00DC100570DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0411C0011DF00DC100570DBE;
+			remoteInfo = FECAddressPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0411C0021DF00DC100570DBE /* FECAddressPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FECAddressPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0411C0061DF00DC100570DBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0411C0081DF00DC100570DBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0411C0091DF00DC100570DBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0411C00B1DF00DC100570DBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0411C00C1DF00DC100570DBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0411C00F1DF00DC100570DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0411C0111DF00DC100570DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0411C0141DF00DC100570DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0411C0161DF00DC100570DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0411C01B1DF00DC100570DBE /* FECAddressPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FECAddressPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0411C01F1DF00DC100570DBE /* FECAddressPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FECAddressPickerTests.m; sourceTree = "<group>"; };
+		0411C0211DF00DC100570DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0411C0261DF00DC100570DBE /* FECAddressPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FECAddressPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0411C02A1DF00DC100570DBE /* FECAddressPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FECAddressPickerUITests.m; sourceTree = "<group>"; };
+		0411C02C1DF00DC100570DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0411C0381DF00EEE00570DBE /* FECAddressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FECAddressView.h; sourceTree = "<group>"; };
+		0411C0391DF00EEE00570DBE /* FECAddressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FECAddressView.m; sourceTree = "<group>"; };
+		0411C03B1DF00F0600570DBE /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0411BFFF1DF00DC100570DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0411C0181DF00DC100570DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0411C0231DF00DC100570DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0411BFF91DF00DC100570DBE = {
+			isa = PBXGroup;
+			children = (
+				0411C0041DF00DC100570DBE /* FECAddressPicker */,
+				0411C01E1DF00DC100570DBE /* FECAddressPickerTests */,
+				0411C0291DF00DC100570DBE /* FECAddressPickerUITests */,
+				0411C0031DF00DC100570DBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0411C0031DF00DC100570DBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0411C0021DF00DC100570DBE /* FECAddressPicker.app */,
+				0411C01B1DF00DC100570DBE /* FECAddressPickerTests.xctest */,
+				0411C0261DF00DC100570DBE /* FECAddressPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0411C0041DF00DC100570DBE /* FECAddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0411C03B1DF00F0600570DBE /* Address.plist */,
+				0411C0081DF00DC100570DBE /* AppDelegate.h */,
+				0411C0091DF00DC100570DBE /* AppDelegate.m */,
+				0411C00B1DF00DC100570DBE /* ViewController.h */,
+				0411C00C1DF00DC100570DBE /* ViewController.m */,
+				0411C0381DF00EEE00570DBE /* FECAddressView.h */,
+				0411C0391DF00EEE00570DBE /* FECAddressView.m */,
+				0411C00E1DF00DC100570DBE /* Main.storyboard */,
+				0411C0111DF00DC100570DBE /* Assets.xcassets */,
+				0411C0131DF00DC100570DBE /* LaunchScreen.storyboard */,
+				0411C0161DF00DC100570DBE /* Info.plist */,
+				0411C0051DF00DC100570DBE /* Supporting Files */,
+			);
+			path = FECAddressPicker;
+			sourceTree = "<group>";
+		};
+		0411C0051DF00DC100570DBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0411C0061DF00DC100570DBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0411C01E1DF00DC100570DBE /* FECAddressPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0411C01F1DF00DC100570DBE /* FECAddressPickerTests.m */,
+				0411C0211DF00DC100570DBE /* Info.plist */,
+			);
+			path = FECAddressPickerTests;
+			sourceTree = "<group>";
+		};
+		0411C0291DF00DC100570DBE /* FECAddressPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0411C02A1DF00DC100570DBE /* FECAddressPickerUITests.m */,
+				0411C02C1DF00DC100570DBE /* Info.plist */,
+			);
+			path = FECAddressPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0411C0011DF00DC100570DBE /* FECAddressPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0411C02F1DF00DC100570DBE /* Build configuration list for PBXNativeTarget "FECAddressPicker" */;
+			buildPhases = (
+				0411BFFE1DF00DC100570DBE /* Sources */,
+				0411BFFF1DF00DC100570DBE /* Frameworks */,
+				0411C0001DF00DC100570DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FECAddressPicker;
+			productName = FECAddressPicker;
+			productReference = 0411C0021DF00DC100570DBE /* FECAddressPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0411C01A1DF00DC100570DBE /* FECAddressPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0411C0321DF00DC100570DBE /* Build configuration list for PBXNativeTarget "FECAddressPickerTests" */;
+			buildPhases = (
+				0411C0171DF00DC100570DBE /* Sources */,
+				0411C0181DF00DC100570DBE /* Frameworks */,
+				0411C0191DF00DC100570DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0411C01D1DF00DC100570DBE /* PBXTargetDependency */,
+			);
+			name = FECAddressPickerTests;
+			productName = FECAddressPickerTests;
+			productReference = 0411C01B1DF00DC100570DBE /* FECAddressPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0411C0251DF00DC100570DBE /* FECAddressPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0411C0351DF00DC100570DBE /* Build configuration list for PBXNativeTarget "FECAddressPickerUITests" */;
+			buildPhases = (
+				0411C0221DF00DC100570DBE /* Sources */,
+				0411C0231DF00DC100570DBE /* Frameworks */,
+				0411C0241DF00DC100570DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0411C0281DF00DC100570DBE /* PBXTargetDependency */,
+			);
+			name = FECAddressPickerUITests;
+			productName = FECAddressPickerUITests;
+			productReference = 0411C0261DF00DC100570DBE /* FECAddressPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0411BFFA1DF00DC100570DBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FEC;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Peter;
+				TargetAttributes = {
+					0411C0011DF00DC100570DBE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					0411C01A1DF00DC100570DBE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0411C0011DF00DC100570DBE;
+					};
+					0411C0251DF00DC100570DBE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0411C0011DF00DC100570DBE;
+					};
+				};
+			};
+			buildConfigurationList = 0411BFFD1DF00DC100570DBE /* Build configuration list for PBXProject "FECAddressPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0411BFF91DF00DC100570DBE;
+			productRefGroup = 0411C0031DF00DC100570DBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0411C0011DF00DC100570DBE /* FECAddressPicker */,
+				0411C01A1DF00DC100570DBE /* FECAddressPickerTests */,
+				0411C0251DF00DC100570DBE /* FECAddressPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0411C0001DF00DC100570DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0411C0151DF00DC100570DBE /* LaunchScreen.storyboard in Resources */,
+				0411C03C1DF00F0600570DBE /* Address.plist in Resources */,
+				0411C0121DF00DC100570DBE /* Assets.xcassets in Resources */,
+				0411C0101DF00DC100570DBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0411C0191DF00DC100570DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0411C0241DF00DC100570DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0411BFFE1DF00DC100570DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0411C00D1DF00DC100570DBE /* ViewController.m in Sources */,
+				0411C00A1DF00DC100570DBE /* AppDelegate.m in Sources */,
+				0411C03A1DF00EEE00570DBE /* FECAddressView.m in Sources */,
+				0411C0071DF00DC100570DBE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0411C0171DF00DC100570DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0411C0201DF00DC100570DBE /* FECAddressPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0411C0221DF00DC100570DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0411C02B1DF00DC100570DBE /* FECAddressPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0411C01D1DF00DC100570DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0411C0011DF00DC100570DBE /* FECAddressPicker */;
+			targetProxy = 0411C01C1DF00DC100570DBE /* PBXContainerItemProxy */;
+		};
+		0411C0281DF00DC100570DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0411C0011DF00DC100570DBE /* FECAddressPicker */;
+			targetProxy = 0411C0271DF00DC100570DBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0411C00E1DF00DC100570DBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0411C00F1DF00DC100570DBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0411C0131DF00DC100570DBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0411C0141DF00DC100570DBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0411C02D1DF00DC100570DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0411C02E1DF00DC100570DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0411C0301DF00DC100570DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FECAddressPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FECAddressPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0411C0311DF00DC100570DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FECAddressPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FECAddressPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0411C0331DF00DC100570DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FECAddressPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FECAddressPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FECAddressPicker.app/FECAddressPicker";
+			};
+			name = Debug;
+		};
+		0411C0341DF00DC100570DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FECAddressPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FECAddressPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FECAddressPicker.app/FECAddressPicker";
+			};
+			name = Release;
+		};
+		0411C0361DF00DC100570DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FECAddressPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FECAddressPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FECAddressPicker;
+			};
+			name = Debug;
+		};
+		0411C0371DF00DC100570DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FECAddressPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.FECAddressPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FECAddressPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0411BFFD1DF00DC100570DBE /* Build configuration list for PBXProject "FECAddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0411C02D1DF00DC100570DBE /* Debug */,
+				0411C02E1DF00DC100570DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0411C02F1DF00DC100570DBE /* Build configuration list for PBXNativeTarget "FECAddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0411C0301DF00DC100570DBE /* Debug */,
+				0411C0311DF00DC100570DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0411C0321DF00DC100570DBE /* Build configuration list for PBXNativeTarget "FECAddressPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0411C0331DF00DC100570DBE /* Debug */,
+				0411C0341DF00DC100570DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0411C0351DF00DC100570DBE /* Build configuration list for PBXNativeTarget "FECAddressPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0411C0361DF00DC100570DBE /* Debug */,
+				0411C0371DF00DC100570DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0411BFFA1DF00DC100570DBE /* Project object */;
+}
